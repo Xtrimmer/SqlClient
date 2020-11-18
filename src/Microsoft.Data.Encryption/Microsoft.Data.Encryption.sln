@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Data.Encryption.F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Data.Encryption.Tests", "tests\Microsoft.Data.Encryption.Tests\Microsoft.Data.Encryption.Tests.csproj", "{C90082D1-A0B7-403C-9BF9-5B34A1BD85FC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Data.Encryption.MockAzureKeyVaultProvider", "tests\tools\Microsoft.Data.Encryption.MockAzureKeyVaultProvider\Microsoft.Data.Encryption.MockAzureKeyVaultProvider.csproj", "{52D020FD-D320-4EC7-999D-5BB8599D4785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,18 @@ Global
 		{C90082D1-A0B7-403C-9BF9-5B34A1BD85FC}.Release|x64.Build.0 = Release|Any CPU
 		{C90082D1-A0B7-403C-9BF9-5B34A1BD85FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{C90082D1-A0B7-403C-9BF9-5B34A1BD85FC}.Release|x86.Build.0 = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|x64.Build.0 = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Debug|x86.Build.0 = Debug|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|x64.ActiveCfg = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|x64.Build.0 = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|x86.ActiveCfg = Release|Any CPU
+		{52D020FD-D320-4EC7-999D-5BB8599D4785}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
